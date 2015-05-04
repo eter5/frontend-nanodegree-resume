@@ -13,7 +13,7 @@ var bio = {
         location : 'Mexico'
     },
     welcomeMessage : 'In 1985 at age of nine years, I made my first program on a Commodore 64 personal computer, '  +
-        'at that time the programming language that I used for the first time was BASIC. From that time, '          +
+        'at that time the programming language that I used for first time was BASIC. From that time, '              +
         'computing science became a passion for me.'                                                                +
         ' ' +
         'In 2007, after a stage in my life as musician and audio engineer, I decided to resume professionally on '  +
@@ -36,17 +36,17 @@ var bio = {
         'HTML',
         'CSS',
         'JavaScript',
-        'Responsive Web Design',
-        'CSS Frameworks',
-        'JavaScript Libraries and Frameworks',
-        'Version Control',
+        'PHP5',
+        'RWD',
+        'Sass',
+        'jQuery',
+        'Git',
         'Web Performance',
-        'Browser Developer Tools',
-        'Building and Automation Tools',
-        'Testing',
-        'Soft Skills'
+        'Gulp',
+        'npm',
+        'Testing'
     ],
-    biopic : 'images/fry.jpg',
+    biopic : 'images/foto.jpg',
 
     // TODO: display the bio info to the resume
     display : function() {
@@ -202,14 +202,6 @@ var education = {
         majors   : ['major 1', 'major 2', 'major n...'],
         dates    : 2009,
         url      : 'http://www.dasc.com.mx'
-    },
-    {
-        name     : 'Instituto Tecnologico Universitario',
-        location : 'Puebla, Mexico',
-        degree   : 'Software Development Engineer',
-        majors   : ['major 1', 'major 2', 'major n...'],
-        dates    : 2009,
-        url      : 'http://www.dasc.com.mx'
     }],
     onlineCourses : [{
         title  : 'Front-End Web Developer Nanodegree',
@@ -218,10 +210,10 @@ var education = {
         url    : 'https://www.udacity.com'
     },
     {
-        title  : 'Front-End Web Developer Nanodegree',
-        school : 'Udacity, Inc.',
-        date   : 2015,
-        url    : 'https://www.udacity.com'
+        title  : 'Master in HTML5/CSS3 and JavaScript',
+        school : 'Code School LLC',
+        date   : 2014,
+        url    : 'https://www.codeschool.com'
     }],
 
     // TODO: display the education info to the resume
@@ -283,5 +275,5 @@ function inName() {
     return name;
 }
 
-$("#main").append(internationalizeButton);
+// $("#main").append(internationalizeButton);
 

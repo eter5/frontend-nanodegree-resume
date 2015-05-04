@@ -1,3 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+/*
+ * Global
+ */
 * {
   padding:0;
   margin:0;
@@ -15,15 +20,13 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
   line-height: 48px;
-  display: inline;
 }
 
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #392613;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,14 +34,14 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  color: #000;
   line-height: 22px;
 }
 
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4A4A4A;
+  color: #4a4a4a;
   line-height: 17px;
 }
 
@@ -52,7 +55,7 @@ h2, h3, h4, h5 {
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: #666;
   line-height: 16px;
   float: left;
 }
@@ -60,63 +63,38 @@ h2, h3, h4, h5 {
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999999;
+  color: #666;
   line-height: 16px;
   float: right;
 
 }
 
 p {
-  font-size: 14px;
-  color: #333333;
+  color: #333;
   line-height: 21px;
+  text-align: justify;
 }
 
 a {
-  color: #1199C3;
+  color: #00b4dc;
   text-decoration: none;
   margin-top: 10px;
   display: block;
-}
-
-.welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #F3F3F3;
-  line-height: 28px;
-}
-
-#skillsH3 {
-  color: #F5AE23;
-  display: none;
+  padding: 10px 0;
 }
 
 .orange {
-  background-color: #F5AE23;
-}
-
-.orange-text {
-  color: #F5AE23;
-}
-
-.white-text {
-  font-weight: bold;
-  color: #FFFFFF;
+  background-color: #f5ae23;
 }
 
 .gray {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   padding-bottom: 10px;
   clear:both;
 }
 
 .dark-gray {
-  background-color: #4A4A4A;
-}
-
-/* TODO: Replace with image later */
-#header {
-  background-color: #484848;
+  background-color: #4a4a4a;
 }
 
 .flex-box {
@@ -139,13 +117,6 @@ ul {
   list-style-type: none;
 }
 
-.biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
-}
-
 img {
   padding: 10px;
 }
@@ -153,7 +124,7 @@ img {
 /* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
   text-align: right;
   padding: 3px;
   margin: 1px;
@@ -170,33 +141,133 @@ span {
   text-align: center;
 }
 
-@media only screen and (max-width: 1024px) {
-  #letsConnect {
-    margin-top: 5%;
-  }
+#footerContacts {
+  min-height: 10vh;
+  align-items: center;
 }
 
-@media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
+
+/*
+ * Header
+ */
+#header:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url("../images/background-medium.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
-@media only screen and (max-width: 750px) {
-  #letsConnect {
-    margin-top: 10%;
-  }
-  .biopic {
-    width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
+#header {
+  background-color: rgba(255, 255, 255, 0.25);
+  min-height: 100vh;
 }
 
+#name {
+  font-family: 'Poiret One', cursive;
+  color: #ffd200;
+  display: block;
+}
+
+.sub-title {
+  color: #00d2ff;
+  padding: 0;
+}
+
+hr {
+  display: none;
+}
+
+#topContacts {
+  background-color: rgba(0, 210, 255, 0.55);
+  margin: 30px 0 0;
+}
+
+.orange-text {
+  color: #dcb400;
+}
+
+.white-text {
+  color: #ebfbff;
+}
+
+.micro-summary {
+  background-color: rgba(96, 64, 32, 0.75);
+  text-align: justify;
+  padding: 1em;
+}
+
+.welcome-message {
+  font-size: 18px;
+  color: #ebfbff;
+  line-height: 28px;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+#skillsH3 {
+  background-color: rgba(255, 210, 0, 0.55);
+  color: #392613;
+  display: none;
+
+}
+
+#skills {
+  background-color: rgba(255, 210, 0, 0.55);
+}
+
+#skills span {
+  color: #392613;
+}
+
+
+/*
+ * Work Experience
+ */
+#workExperience {
+  min-height: 50vh;
+  padding: 20px 0;
+}
+
+
+/*
+ * Projects
+ */
+#projects {
+  min-height: 50vh;
+  padding: 20px 0;
+  background-color: #dcb400;
+}
+
+
+/*
+ * Education
+ */
+#education {
+  min-height: 50vh;
+  padding: 20px 0;
+}
+
+
+/*
+ * Map
+ */
 #map {
   display: block;
-  height: 100%;
+  height: 85%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -204,12 +275,82 @@ span {
 #mapDiv {
   height: 400px;
   width: 100%;
-  padding-bottom: 5%;
+  padding: 20px 0;
+  background-color: #00b4dc;
+}
+
+
+/*
+ * Media queries
+ */
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .biopic {
+    width: 150px;
+  }
+
+  .welcome-message {
+    display: none;
+  }
+
+  #topContacts {
+    display: block;
+    margin: 10px 0 0;
+    min-height: 20vh;
+  }
+
+  .micro-summary {
+    display: none;
+  }
+
+  #skills {
+    display: block;
+    min-height: 48vh;
+    text-align: right;
+  }
+
+  h3 {
+    padding-top: 30px;
+  }
+
+  #workExperience,
+  #projects,
+  #education,
+  #mapDiv {
+    min-height: 100vh;
+  }
+
+  #footerContacts {
+    display: block;
+    text-align: right;
+  }
 }
 
 @media only screen and (min-width: 750px) {
   #skillsH3,
   .biopic {
     display: block;
+  }
+
+  #header:before {
+    background-image: url("../images/background-large.jpg");
+  }
+
+  #header {
+    background-color: rgba(255, 255, 255, 0.35);
+  }
+
+  #name {
+    font-size: 55px;
+    line-height: normal;
+  }
+
+  .sub-title {
+    font-size: 26px;
   }
 }
