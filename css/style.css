@@ -1,4 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  color: #eef;
+}
 
 /*
  * Global
@@ -34,7 +41,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000;
+  color: #392613;
   line-height: 22px;
 }
 
@@ -70,9 +77,13 @@ h2, h3, h4, h5 {
 }
 
 p {
-  color: #333;
+  color: #392613;
   line-height: 21px;
   text-align: justify;
+}
+
+em {
+  color: #392613;
 }
 
 a {
@@ -83,8 +94,8 @@ a {
   padding: 10px 0;
 }
 
-.orange {
-  background-color: #f5ae23;
+.yellow {
+  background-color: rgba(255, 210, 0, 0.65);
 }
 
 .gray {
@@ -95,6 +106,10 @@ a {
 
 .dark-gray {
   background-color: #4a4a4a;
+}
+
+.footer-blue {
+  background-color: rgba(0, 255, 210, 0.65);
 }
 
 .flex-box {
@@ -146,6 +161,14 @@ span {
   align-items: center;
 }
 
+#footerContacts .light-brown-text {
+  color: #ffd200;
+}
+
+#footerContacts .brown-text {
+  color: #fff8d8;
+}
+
 
 /*
  * Header
@@ -173,12 +196,12 @@ span {
 
 #name {
   font-family: 'Poiret One', cursive;
-  color: #ffd200;
+  color: #00d2ff;
   display: block;
 }
 
 .sub-title {
-  color: #00d2ff;
+  color: #ffd200;
   padding: 0;
 }
 
@@ -189,14 +212,19 @@ hr {
 #topContacts {
   background-color: rgba(0, 210, 255, 0.55);
   margin: 30px 0 0;
+  border-radius: 7px 7px 0 0;
 }
 
-.orange-text {
-  color: #dcb400;
+.light-brown-text {
+  color: #996633;
 }
 
 .white-text {
   color: #ebfbff;
+}
+
+.brown-text {
+  color: #392613;
 }
 
 .micro-summary {
@@ -227,6 +255,7 @@ hr {
 
 #skills {
   background-color: rgba(255, 210, 0, 0.55);
+  border-radius: 0 0 7px 7px;
 }
 
 #skills span {
@@ -249,7 +278,19 @@ hr {
 #projects {
   min-height: 50vh;
   padding: 20px 0;
-  background-color: #dcb400;
+  background-color: rgba(96, 64, 32, 0.95);
+}
+
+#projects h2 {
+  color: #f3f3f3;
+}
+
+#projects .date-text {
+  color: #999;
+}
+
+.project-entry p {
+  color: #f3f3f3;
 }
 
 
@@ -276,7 +317,7 @@ hr {
   height: 400px;
   width: 100%;
   padding: 20px 0;
-  background-color: #00b4dc;
+  background-color: rgba(0, 210, 255, 0.55);
 }
 
 

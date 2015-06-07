@@ -12,9 +12,9 @@ var bio = {
         github   : 'eter5',
         location : 'Mexico'
     },
-    welcomeMessage : 'In 1985 at age of nine years, I made my first program on a Commodore 64 personal computer, '  +
-        'at that time the programming language that I used for first time was BASIC. From that time, '              +
-        'computing science became a passion for me.'                                                                +
+    welcomeMessage : 'In 1985 at age of nine years I made my first program on a Commodore 64 personal computer, '  +
+        'the programming language that I used for first time was BASIC. From that time computing science became '  +
+        'a passion for me.'                                                                +
         ' ' +
         'In 2007, after a stage in my life as musician and audio engineer, I decided to resume professionally on '  +
         'world of computer science (previously I had developed some projects with HTML and Flash). PHP5 was the '   +
