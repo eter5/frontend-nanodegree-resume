@@ -142,14 +142,12 @@ var work = {
 var projects = {
 
     projects : [{
-        title       : 'Sample Project',
-        dates       : 'month 0000 - month 0000',
-        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                      'Suspendisse maximus neque at malesuada condimentum. ' +
-                      'Quisque lobortis enim vel enim elementum, ac convallis magna scelerisque. ' +
-                      'Donec sed neque tortor. Morbi non est risus. Etiam molestie quis augue pulvinar condimentum. ' +
-                      'Phasellus facilisis ante in dolor viverra ultrices. Proin vitae gravida justo, ...',
-        images      : ['images/197x148.gif', 'images/197x148.gif']
+        title       : 'Arcade Game Clone',
+        dates       : 'May 2015 - June 2015',
+        description : 'Clone of the classic game, Frogger. Udacity provided the art assets and game engine.' +
+                      'Coded player, enemies, and other game entities in JavaScript\'s object-oriented pseudo-classical style.' +
+                      'Technologies: [HTML5 Canvas, JavaScript];',
+        images      : ['images/agc_thumbnail.jpg']
     },
     {
         title       : 'Sample Project 2',
