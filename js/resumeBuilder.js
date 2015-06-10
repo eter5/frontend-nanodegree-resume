@@ -148,16 +148,6 @@ var projects = {
                       'Coded player, enemies, and other game entities in JavaScript\'s object-oriented pseudo-classical style.' +
                       'Technologies: [HTML5 Canvas, JavaScript];',
         images      : ['images/agc_thumbnail.jpg']
-    },
-    {
-        title       : 'Sample Project 2',
-        dates       : 'month 0000 - month 0000',
-        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
-                      'Suspendisse maximus neque at malesuada condimentum. ' +
-                      'Quisque lobortis enim vel enim elementum, ac convallis magna scelerisque. ' +
-                      'Donec sed neque tortor. Morbi non est risus. Etiam molestie quis augue pulvinar condimentum. ' +
-                      'Phasellus facilisis ante in dolor viverra ultrices. Proin vitae gravida justo, ...',
-        images      : ['images/197x148.gif', 'images/197x148.gif', 'images/197x148.gif']
     }],
 
     // TODO: display the projects info to the resume
