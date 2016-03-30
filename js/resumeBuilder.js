@@ -6,7 +6,7 @@ var bio = {
     name : 'Israel Bastida',
     role : 'Front-End Web Developer + PHP Back-End Engineer',
     contacts : {
-        mobile   : '+52 1 2224156595',
+        mobile   : '+52 1 2228418288',
         email    : 'developer@eter5.com',
         twitter  : '@eter5',
         github   : 'eter5',
