@@ -4,7 +4,7 @@
 + CONTACT
 
 Email: developer@eter5.com
-Phone: +52 1 22 2425 6595
+Phone: +52 1 222 841 8288
 LinkedIn: linkedin.com/in/eter5
 GitHub: github.com/eter5
 Twitter: @eter5
